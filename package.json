@@ -1,0 +1,27 @@
+{
+  "name": "smvforms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/src/index.js",
+    "dev": "tsc-watch --onSuccess \"npm run start\"",
+    "build": "tsc && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.19",
+    "@types/node": "^20.8.5",
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.2.2"
+  }
+}
